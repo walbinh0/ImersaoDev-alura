@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imersão Dev Alura - Aula 02</title>
+    <link rel="shortcut icon" href="./img/fav.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="alura">
+        <a href="https://alura.com.br/" target="_blank">
+            <img src="./img/logo-alura.svg" alt="" class="alura-logo">
+        </a>
+    </div>
+    <div class="container">
+        <h1 class="page-title">
+            Mentalista</h1>
+        <p class="page-subtitle">
+            Adivinhe o número.
+        </p>
+        <img src="./img/logo-imersao.svg" class="page-logo" alt="">
+        <div class="content">
+            <div class="notas">
+                <h1>Digite um número de 0 a 10</h1>
+                <form action="#">
+                    <input id="numero" placeholder="Qual o número ?" type="number" name="real">
+                </form>
+                <button type="submit" onclick="chutar()" class="cont-btn">chutar</button>
+                <button class="cont-btn" onclick="resetar()">Reiniciar</button>
+                <p id="res"></p>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

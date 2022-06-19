@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imersão Dev Alura - Aula 03</title>
+    <link rel="shortcut icon" href="./img/fav.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header-bg">
+        <div class="container header">
+            <a href="https://github.com/vitorFRE/ImersaoDev-alura" target="_blank">
+                <img class="github-logo" src="./img/github-logo.svg" alt="GitHub">
+            </a>
+
+            <a href="https://imersao.dev/" target="_blank">
+                <img src="./img/logo-imersao.svg" alt="Logo Imersao" class="imersao-logo">
+            </a>
+
+            <a class="alura-logo" href="https://alura.com.br/" target="_blank">
+                <img src="./img/logo-alura.svg" alt="" class="alura-logo">
+            </a>
+        </div>
+    </header>
+
+    <main class="filmes-bg">
+        <div class="filmes container">
+            <div class="filmes-titulo">
+                <h1>Catálago de Filmes<span class="ponto">.</span></h1>
+                <div class="filme-add">
+                    <div>
+                        <input id="input" placeholder="URL Imagem" type="text">
+                    </div>
+                    <div>
+                        <button onclick="add()" class="btn">ADD</button>
+                        <button onclick="limpar()" class="btn">Limpar URL</button>
+                    </div>
+                </div>
+            </div>
+            <div class="filmes-lista">
+                <ul id="lista" class="filme-lista">
+
+                </ul>
+            </div>
+
+
+            <div class="filmes-lista container"></div>
+        </div>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
